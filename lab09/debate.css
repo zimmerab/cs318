@@ -1,0 +1,61 @@
+body {
+  box-sizing: border-box;
+  margin-left:auto;
+}
+
+.blurb {
+  width: 90%;
+  box-shadow: 10px 5px black;
+  font-family: 'Roboto', sans-serif;
+  border-style: solid;
+  border-width: 1px;
+  min-height: 202px;
+  min-width: 400px;
+  background-size:  200px auto ;
+  padding-left: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.left {
+  margin-right: auto;
+  background-color: pink;
+  background-image: url(president2.jpg);
+  background-repeat: no-repeat;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  padding-left: 200px;
+}
+
+.top {
+  background-image: linear-gradient(to left, red, green);
+  width: auto;
+  height: 50px;
+
+}
+h1 {
+  box-shadow: inset  5px 0px 7px;
+  padding-left: 50%;
+  padding-top: 2px;
+  align-content: center;
+}
+.leftword{
+  color:red;
+
+}
+.rightword{
+  color:yellow;
+
+}
+
+.right {
+  margin-left: auto;
+  background-color: green;
+  background-image: url(leftimage.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  padding-right: 200px;
+}
