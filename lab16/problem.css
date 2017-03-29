@@ -12,12 +12,70 @@ body {
 }
 
 h1{
-  text-decoration-color: white;
+  color: white;
 }
 
 h2{
-  text-decoration-color: white;
+  color: white;
 }
 h3{
-  text-decoration-color: white;
+  color: white;
+}
+
+#orange {
+  background-color: orange;
+}
+#yellow {
+  background-color: yellow;
+}
+#green {
+  background-color: green;
+}
+#blue {
+  background-color: blue;
+}
+ul{
+  color: white;
+}
+.shapes{
+  background-color: white;
+  height: 100px;
+  width: 100px;
+}
+#circle{
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.numbers{
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  
+}
+#four{
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+}
+#three{
+  border-color: white;
+  border-width: 5px;
+  border-top-style:solid;
+  border-bottom-style:solid;
+  border-right-style:solid;
+}
+#two{
+  border-color: white;
+  border-width: 5px;
+  border-top-style:solid;
+  border-bottom-style:solid;
+}
+#one{
+  border-color: white;
+  border-width: 5px;
+  border-top-style:solid;
+}
+ol{
+  color: white;
 }

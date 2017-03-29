@@ -1,0 +1,72 @@
+nav{
+  background-color: gray;
+  margin: 0;
+  height: 100px;
+  padding-top: 0;
+}
+h3{
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+body{
+  margin: 0;
+  background: linear-gradient(white, orange); /* Standard syntax */
+  height: 1200px;
+  width: auto;
+}
+.icon {
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 45px;
+  -webkit-border-radius: 45px;
+  border-radius: 45px;
+  display: block;
+  margin: auto;
+}
+.square {
+
+  width: 200px;
+  height: 100px;
+
+}
+#right{
+  background-color: pink;
+  float: right;
+  margin: 2px;
+  border-style: solid;
+  border-color: #EDD691 ;
+  border-width: 10px;
+  outline-color: black;
+  outline-style: solid;
+  outline-width: 5px;
+}
+#left{
+  background-color: pink;
+  margin: 10px;
+  float: left;
+  border-style:solid;
+  border-width: 5px;
+  border-color: black;
+}
+#righttwo{
+  float: right;
+  border-style:solid;
+  border-width: 5px;
+  border-color: black;
+}
+.other{
+  background-color: pink;
+  position: absolute;
+  left: 85%;
+  width: 180px;
+  height: 60px;
+}
+.google{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 4%;
+  left: 88%;
+}
