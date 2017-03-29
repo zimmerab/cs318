@@ -70,3 +70,10 @@ body{
   top: 4%;
   left: 88%;
 }
+
+@media (max-width: 55em){
+  .square{
+    clear: both;
+    
+  }
+}
