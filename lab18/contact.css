@@ -1,0 +1,23 @@
+body {
+
+  background-color: white;
+}
+
+label{
+  font-size: 18pt;
+  margin-left: 10px;
+  padding-right: 10px;
+}
+
+#button {
+  background-color: blue;
+
+}
+
+form{
+  text-align: right;
+  background-color: grey;
+  margin-left:auto;
+  margin-right:auto;
+  width: 400px;
+}
