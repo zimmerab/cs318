@@ -1,3 +1,5 @@
 body {
-  background-image: repeating-linear-gradient(45deg, blue, red);
+  background-image: url(http://www.twodee.org/imgs/me_small_circle.png);
+  background-repeat: repeat-y;
+
 }
