@@ -1,0 +1,24 @@
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 350px;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgur-embed-pub{
+  width: 300px;
+  height: 300px;
+}
+
+.youtube{
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}

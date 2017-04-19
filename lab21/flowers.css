@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+img{
+  width: 129px;
+  height: 129px;
+  margin: 10px;
+  float: left;
+
+}
+
+
+img:nth-child(4n+5){
+  clear: left;
+}
+
+#flowerbed:hover img:hover {
+  opacity: 1;
+  transform: scale(1.5) rotate(180deg);
+  transition-duration: 2s;
+  z-index: auto;
+}
+
+#flowerbed:hover img{
+  opacity: 0.5;
+
+}
+
+#flowerbed{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+
+}
+
+a{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
